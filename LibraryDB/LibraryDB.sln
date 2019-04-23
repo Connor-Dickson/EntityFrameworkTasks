@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LibraryDB", "LibraryDB\LibraryDB.sqlproj", "{2DA9B652-D6B5-4A0D-8C93-DEA5A2A7B685}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAPI", "LibraryAPI\LibraryAPI.csproj", "{3CEDDC95-138C-483F-BB22-E33B0CD5EB27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{2DA9B652-D6B5-4A0D-8C93-DEA5A2A7B685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DA9B652-D6B5-4A0D-8C93-DEA5A2A7B685}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2DA9B652-D6B5-4A0D-8C93-DEA5A2A7B685}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3CEDDC95-138C-483F-BB22-E33B0CD5EB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CEDDC95-138C-483F-BB22-E33B0CD5EB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CEDDC95-138C-483F-BB22-E33B0CD5EB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CEDDC95-138C-483F-BB22-E33B0CD5EB27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

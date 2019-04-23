@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[Student]
 (
-	[SID] INT NOT NULL PRIMARY KEY, 
-    [FName] NCHAR(10) NOT NULL, 
-    [LName] NCHAR(10) NOT NULL, 
+	[SID] VARCHAR(50) NOT NULL PRIMARY KEY, 
+    [FName] CHAR(25) NOT NULL, 
+    [LName] CHAR(25) NOT NULL, 
     [Email] NVARCHAR(MAX) NOT NULL, 
-    [MobileNo] INT NOT NULL
+    [MobileNo] VARCHAR(50) NOT NULL
 )
